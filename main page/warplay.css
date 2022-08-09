@@ -1,0 +1,556 @@
+    * {
+        padding: 0;
+        margin: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    
+    @font-face {
+        font-family: "Aire Exterior";
+        src: url(./fonts/AireExterior.ttf);
+    }
+    
+    a {
+        color: #fff;
+    }
+    /* a:hover {
+        transition: 400ms all;
+        transform: scale(1.3);
+        background: rgba(0, 119, 255, 0.15);
+        padding: 15px 20px;
+        font-size: 20px;
+        border-radius: 7px;
+    } */
+    
+    hr {
+        margin: 0;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0;
+    }
+    
+    body {
+        background: #141c24;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+    
+    section {
+        margin: 170px auto;
+    }
+    
+    header .container-fluid {
+        width: 1440px;
+        margin: auto;
+        background: #141c24;
+    }
+    
+    header a.nav-link {
+        color: #fff;
+        /* border-bottom: 1px #00C5FF solid; */
+        /* transform: scaleX(); */
+        transition: 300ms;
+    }
+    
+    header a.nav-link.active {
+        color: #fff;
+    }
+    
+    header a.nav-link:hover {
+        color: #fff;
+        border-bottom: 1px #00c5ff solid;
+        background: rgba(0, 119, 255, 0.15);
+        /* font-size: 18px;*/
+        transform: scale(1.05);
+    }
+    
+    section.main {
+        margin: 50px auto;
+    }
+    
+    section.main .container .row .col #carouselExampleFade .carousel-inner .carousel-item .carousel-caption {
+        top: 290px;
+    }
+    
+    section.main .container .row .col #carouselExampleFade .carousel-inner .carousel-item .carousel-caption h5 {
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 500;
+        /* identical to box height */
+        color: #ffffff;
+    }
+    
+    section.main .container .row .col #carouselExampleFade .carousel-inner .carousel-item .carousel-caption h1 {
+        font-family: "Aire Exterior";
+        font-style: normal;
+        font-weight: 400;
+        /* font-size: 48px; */
+    }
+    
+    section.main .container .row .col #carouselExampleFade .carousel-inner .carousel-item .carousel-caption button {
+        width: 251px;
+        height: 61px;
+        border: none;
+        background: url("./img/button.png");
+        /* text */
+        font-family: "Aire Exterior";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        margin-top: 97px;
+    }
+    
+    @media (max-width: 576px) {
+        section.main .container {
+            max-height: 777px;
+        }
+        section.main .container .row .col #carouselExampleFade .carousel-inner .carousel-item .carousel-caption {
+            top: 20px;
+            text-align: left;
+        }
+        section.main .container .row .col #carouselExampleFade .carousel-inner .carousel-item .carousel-caption button {
+            margin-top: 20px;
+            background: url("./img/button.png");
+        }
+    }
+    
+    @media (max-width: 992px) and (min-width: 576px) {
+        section.main .container .row .col #carouselExampleFade .carousel-inner .carousel-item .carousel-caption {
+            top: 70px;
+        }
+        section.main .container .row .col #carouselExampleFade .carousel-inner .carousel-item .carousel-caption button {
+            margin-top: 20px;
+            width: 200px;
+            height: 50px;
+            font-size: 24px;
+            border-radius: 5px;
+        }
+    }
+    /* 517px height ,, how it work */
+    
+    section.how_it_work .container .row .col {
+        /* height: 517px; */
+        justify-content: space-between;
+        /* flex-wrap: wrap; */
+    }
+    
+    section.how_it_work .container .row .col .cloud-gaming {
+        max-width: 480px;
+        height: 517px;
+        margin-top: 140px;
+        color: #fff;
+    }
+    
+    section.how_it_work .container .row .col .cloud-gaming h6 {
+        margin-bottom: 30px;
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 16px;
+        color: #57d6ff;
+    }
+    
+    section.how_it_work .container .row .col .cloud-gaming h2 {
+        font-family: "Aire Exterior";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 39px;
+        margin-bottom: 60px;
+    }
+    
+    section.how_it_work .container .row .col .cloud-gaming h6 .hr-line {
+        width: 50px;
+        height: 0px;
+        align-items: center;
+        border: 1px solid #57d6ff;
+        margin: 10px 35px 0 0;
+    }
+    
+    section.how_it_work .container .row .col .cloud-gaming p {
+        font-family: "Roboto";
+        font-weight: 300;
+        font-size: 21.33px;
+        color: #ababab;
+    }
+    
+    section.how_it_work .container .row .col .cloud-gaming hr {
+        margin: 27px 0 22px 0;
+    }
+    
+    section.how_it_work .container .row .col .cloud-gaming a.download {
+        font-family: "Roboto";
+        font-weight: 300;
+        /* font-size: 21.33px; */
+        color: #00c5ff;
+        text-decoration: none;
+        border-bottom: 2px solid;
+    }
+    
+    section.start-game .container .row .col {
+        text-align: center;
+        justify-content: space-between;
+        margin: auto;
+        color: #fff;
+    }
+    
+    section.start-game .container .row .col .caption {
+        margin: auto;
+        max-width: 193px;
+    }
+    
+    section.start-game .container .row .col .caption h6 {
+        font-family: 'Roboto';
+        font-weight: 300;
+        color: #57D6FF;
+        margin: auto;
+    }
+    
+    section.start-game .container .row .col .caption h2 {
+        font-family: 'Aire Exterior';
+        font-weight: 400;
+        font-size: 39px;
+    }
+    
+    section.start-game .container .row .col .caption h6 .hr-line {
+        width: 45px;
+        height: 0px;
+        border: 1px solid #57D6FF;
+        margin: 10px 30px 0 0;
+    }
+    
+    section.start-game .container .row .col .icons {
+        margin: 90px auto;
+        justify-content: space-between;
+        max-width: 1055px;
+        height: 100px;
+    }
+    
+    section.start-game .container .row .col .icons .icon {
+        width: 190px;
+        border-radius: 10px;
+    }
+    
+    section.start-game .container .row .col .icons .icon:hover {
+        transition: 400ms ease;
+        transform: scale(1.2);
+        background: rgba(0, 119, 255, 0.15);
+    }
+    
+    section.start-game .container .row .col .icons hr {
+        width: 73px;
+        height: 0px;
+        background: #141C24;
+        border: 1px solid #50AFCD;
+        margin-top: 38px;
+    }
+    
+    section.start-game .container .row .col a {
+        font-family: 'Roboto';
+        font-weight: 300;
+        /* font-size: 16px; */
+        color: #57D6FF;
+        text-decoration: none;
+        border-bottom: 1px solid #00C5FF;
+    }
+    
+    section.pricing .container .row .col {
+        margin: auto;
+        height: 800px;
+        color: #fff;
+    }
+    
+    section.pricing .container .row .col .caption {
+        margin: auto;
+        max-width: 326px;
+        height: 83px;
+        text-align: center;
+    }
+    
+    section.pricing .container .row .col .caption h6 {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 16px;
+        color: #57D6FF;
+        margin: auto;
+        justify-content: center;
+    }
+    
+    section.pricing .container .row .col .caption h6 .hr-line {
+        width: 45px;
+        height: 0px;
+        border: 1px solid #57D6FF;
+        margin: 10px 30px 0 0;
+    }
+    
+    section.pricing .container .row .col .caption h2 {
+        font-family: 'Aire Exterior';
+        font-size: 39px;
+        font-weight: 400;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    section.pricing .container .row .col .cards {
+        display: grid;
+        /* grid-template-columns: repeat( 3, 400px); */
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+    
+    section.pricing .container .row .col .cards .con {
+        width: 400px;
+        height: 543px;
+        background: #1F2631;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
+    }
+    
+    section.pricing .container .row .col .cards .con .container h1 {
+        max-width: 311px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        color: #FFFFFF;
+        margin: 76px auto 18px auto;
+    }
+    
+    section.pricing .container .row .col .cards .con .container ul {
+        /* margin: auto; */
+        margin-bottom: 71px;
+        height: 173px;
+    }
+    
+    section.pricing .container .row .col .cards .con .container ul p {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 24px;
+        color: #FFFFFF;
+        margin: 15px 0 21px 0;
+    }
+    
+    section.pricing .container .row .col .cards .con .container ul li {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 21.33px;
+        color: #ABABAB;
+    }
+    
+    section.pricing .container .row .col .cards .con .container button {
+        width: 321px;
+        height: 70px;
+        background: #00C5FF;
+        border-radius: 5px;
+        /* text */
+        font-family: 'Aire Exterior';
+        font-weight: 400;
+        font-size: 24px;
+        color: #141C24;
+        border: none;
+        margin-left: 32px;
+    }
+    /* hover */
+    
+    section.pricing .container .row .col .cards .con:hover {
+        background: rgba(0, 197, 255, 0.15);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transition: 330ms ease;
+        transform: scale(1.05);
+    }
+    /*
+section.pricing .container .row .col .cards .con .container h1:hover {
+    max-width: 311px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+    margin: 76px auto 18px auto;
+} */
+    
+    section.pricing .container .row .col hr {
+        width: 582px;
+        height: 0px;
+        border: 1px solid #00C5FF;
+        margin: 90px auto 0 auto;
+    }
+    
+    section.game_in_browser .container .row .col {
+        height: 740px;
+        width: 100%;
+    }
+    
+    section.game_in_browser .container .row .col .game_caption {
+        max-width: 480px;
+        height: 470px;
+        color: #fff;
+    }
+    
+    section.game_in_browser .container .row .col .game_caption h6 {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 16px;
+        color: #57D6FF;
+    }
+    
+    section.game_in_browser .container .row .col .game_caption h6 .hr-line {
+        width: 50px;
+        height: 0px;
+        border: 1px solid #57D6FF;
+        margin: 10px 30px 0 0;
+    }
+    
+    section.game_in_browser .container .row .col .game_caption h2 {
+        font-family: 'Aire Exterior';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 39px;
+        color: #FFFFFF;
+        margin-top: 25px;
+    }
+    
+    section.game_in_browser .container .row .col .game_caption p {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 21.33px;
+        color: #ABABAB;
+        margin-top: 90px;
+        margin-bottom: 60px;
+    }
+    
+    section.game_in_browser .container .row .col .game_caption a {
+        font-family: 'Roboto';
+        font-weight: 500;
+        font-size: 16px;
+        color: #00C5FF;
+        text-decoration: none;
+        border-bottom: 1px solid #00C5FF;
+        /* margin-top: 60px; */
+    }
+    
+    section.gaming_location .container .row .col {
+        height: 5 40px;
+        margin: auto;
+        color: #fff;
+    }
+    
+    section.gaming_location .container .row .col .caption {
+        justify-content: center;
+        max-width: 315px;
+        height: 73px;
+        text-align: center;
+    }
+    
+    section.gaming_location .container .row .col .caption h6 {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 16px;
+        color: #57D6FF;
+    }
+    
+    section.gaming_location .container .row .col .caption h6 .hr-line {
+        width: 50px;
+        height: 0px;
+        border: 1px solid #57D6FF;
+        margin: 10px 30px 0 0;
+    }
+    
+    section.gaming_location .container .row .col .caption h2 {
+        font-family: 'Aire Exterior';
+        font-weight: 400;
+        font-size: 39px;
+        color: #FFFFFF;
+        margin-top: 5px;
+    }
+    
+    section.gaming_location .container .row .col .map {
+        position: relative;
+        max-width: 725px;
+        height: 395px;
+        margin: 70px auto;
+    }
+    
+    section.gaming_location .container .row .col .map:hover {
+        transition: 400ms ease;
+    }
+    
+    section.gaming_location .container .row .col .map h6 {
+        font-family: 'Aire Exterior';
+        font-weight: 400;
+        font-size: 20px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 141px;
+        left: 425px;
+    }
+    
+    section.gaming_location .container .row .col .map .hr-line {
+        width: 127.56px;
+        height: 0px;
+        border: 1px solid #FFFFFF;
+        transform: rotate(-37.87deg);
+        position: absolute;
+        top: 207px;
+        left: 311px;
+    }
+    
+    section.gaming_location .container .row .col .map img.moscow {
+        position: absolute;
+        top: 204px;
+        left: 224px;
+    }
+    
+    section.gaming_location {
+        margin-bottom: 0;
+    }
+    
+    footer {
+        height: 150px;
+        background: #171717;
+        color: #fff;
+        padding-top: 70px;
+    }
+    
+    footer .container .row .col .justif-start img.logo {
+        margin-right: 30px;
+    }
+    
+    footer .container .row .col .justif-start h6 {
+        font-family: 'Aire Exterior';
+        font-weight: 400;
+        font-size: 12px;
+        color: #ECECEC;
+        padding-top: 12px;
+    }
+    
+    footer .container .row .col .justif-start p {
+        font-family: 'Aire Exterior';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 11px;
+        color: #838383;
+        padding: 14px 0 0 20px;
+    }
+    
+    footer .container .row .col .justif_end p {
+        font-family: 'Roboto';
+        font-weight: 200;
+        font-size: 12px;
+        color: #FFFFFF;
+        padding-top: 14px;
+        margin-right: 51px;
+    }
+    
+    footer .container .row .col .justif_end i {
+        font-size: 17px;
+        padding-left: 10px;
+        padding-top: 14px;
+    }

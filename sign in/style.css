@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background: #141c24;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+@font-face {
+    font-family: "Aire Exterior";
+    src: url(../assets/fonts/AireExterior.ttf);
+}
+
+section.sign_in .container .row .col .sign_sect {
+    /* width: 484px; */
+    height: 410px;
+    margin: auto;
+}
+
+section.sign_in .container .row .col .sign_sect .headings {
+    display: flex;
+    text-align: center;
+    height: 50px;
+    width: 484px;
+    /* justify-content: space-between; */
+    margin: auto;
+    margin-top: 125px;
+}
+
+section.sign_in .container .row .col .sign_sect .headings i {
+    font-size: 36px;
+    margin-left: -40px;
+}
+
+section.sign_in .container .row .col .sign_sect .headings a {
+    text-decoration: none;
+    font-family: "Aire Exterior";
+    font-weight: 400;
+    /* font-size: 48px; */
+    margin-left: 47px;
+}
+
+section.sign_in .container .row .col .sign_sect .headings a h1.sign_up {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+section.sign_in .container .row .col .sign_sect input.email,
+section.sign_in .container .row .col .sign_sect input.pass {
+    width: 390px;
+    height: 75px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin: 15px auto;
+    /* ===== */
+    font-family: "Aire Exterior";
+    padding-left: 24px;
+    font-size: 24px;
+}
+
+section.sign_in .container .row .col .sign_sect input.email::placeholder,
+section.sign_in .container .row .col .sign_sect input.pass::placeholder {
+    font-family: "Aire Exterior";
+    font-style: normal;
+    font-weight: 400;
+    /* padding-left: 24px; */
+    font-size: 24px;
+}
+
+section.sign_in .container .row .col .sign_sect input.pass {
+    margin: 0 auto 30px;
+}
+
+section.sign_in .container .row .col .sign_sect .btn_gr {
+    width: 390px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+section.sign_in .container .row .col .sign_sect .btn_gr .keep_me input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    background: #fff;
+    margin-right: 16px;
+
+}
+
+
+section.sign_in .container .row .col .sign_sect .btn_gr .keep_me p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+
+
+
+section.sign_in .container .row .col .sign_sect .btn_gr button {
+    width: 251px;
+    height: 61px;
+    border: none;
+    background: url(./img/button.png) center;
+    /* --------- */
+    font-family: 'Aire Exterior';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.sign_in .container .row .col .social_nets {
+    margin: auto;
+    text-align: center;
+}
+
+section.sign_in .container .row .col .social_nets .cherez {
+    justify-content: space-between;
+    width: 330px;
+    margin: auto;
+}
+
+section.sign_in .container .row .col .social_nets .cherez h6 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+section.sign_in .container .row .col .social_nets .cherez .hr-line {
+    width: 117px;
+    height: 0px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    margin-top: 7px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+section.sign_in .container .row .col .social_nets .soc_icons {
+    text-align: center;
+    justify-content: center;
+}
+
+section.sign_in .container .row .col .social_nets .soc_icons .up {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+}
+
+section.sign_in .container .row .col .social_nets .soc_icons .down {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+section.sign_in .container .row .col .social_nets .soc_icons i {
+    font-size: 24px;
+}
+
+section.sign_in .container .row .col .social_nets .soc_icons .up i.fa-at {
+    background: #005ff9;
+    border-radius: 50%;
+    width: 24px;
+    color: #ff9e00;
+    /* font-size: 12px; */
+}
+
+section.sign_in .container .row .col .social_nets .soc_icons .up i.fa-vk {
+    color: #4c6c91;
+}
+
+section.sign_in .container .row .col .social_nets .soc_icons .up i.fa-odnoklassniki-square {
+    color: #f68634;
+}
+
+section.sign_in .container .row .col .social_nets .soc_icons .up i.fa-facebook-square {
+    color: #3b5998;
+}
+
+section.sign_in .container .row .col .social_nets .soc_icons .up i.fa-google {
+    color: #4285f4;
+}
+
+/* down */
+section.sign_in .container .row .col .social_nets .soc_icons .down i.fa-twitch {
+    color: #6441a5;
+}
+
+section.sign_in .container .row .col .social_nets .soc_icons .down i.fa-twitter-square {
+    color: #55acee;
+}

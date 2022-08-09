@@ -1,0 +1,68 @@
+/* basic params */
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background: #141c24;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  height: 100vh;
+}
+
+/* fonts */
+@font-face {
+  font-family: "Aire Exterior";
+  src: url(../assets/fonts/AireExterior.ttf);
+}
+
+/* builds */
+
+.container .row .col section {
+  width: 658px;
+  height: 273px;
+  margin: 215px auto 0 auto;
+  align-items: center;
+}
+
+.container .row .col section .heading {
+  width: 654px;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.container .row .col section .heading i {
+  font-size: 36px;
+  color: #fff;
+  /* margin-right: -72px; */
+}
+
+.container .row .col section .heading h1 {
+  font-family: "Aire Exterior";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.container .row .col section main {
+  width: 656px;
+  margin: 125px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .row .col section main i {
+  font-size: 100px;
+  color: rgb(153, 153, 255);
+
+}
+
+.container .row .col section main i:hover {
+  transition: 330ms;
+  transform: scale(1.2);
+  color: rgb(98, 98, 255);
+}
